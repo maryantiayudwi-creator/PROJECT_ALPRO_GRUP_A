@@ -1,0 +1,27 @@
+START
+
+    A ← (2,1,3)
+    B ← (1,-4,6)
+    C ← (-2,3,-2)
+
+    INPUT x1
+    INPUT x2
+    INPUT x3
+
+    dA ← √((x1-2)² + (x2-1)² + (x3-3)²)
+
+    dB ← √((x1-1)² + (x2+4)² + (x3-6)²)
+
+    dC ← √((x1+2)² + (x2-3)² + (x3+2)²)
+
+    IF dA < dB AND dA < dC THEN
+        cluster ← "A"
+    ELSE IF dB < dA AND dB < dC THEN
+        cluster ← "B"
+    ELSE
+        cluster ← "C"
+    ENDIF
+
+    PRINT "Titik U termasuk Cluster", cluster
+
+END
