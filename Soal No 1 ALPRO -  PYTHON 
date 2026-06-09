@@ -1,0 +1,70 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyP4ThcQdgFKrCQvW0hhik4c",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/maryantiayudwi-creator/PROJECT_ALPRO_GRUP_A/blob/main/Soal%20No%201%20ALPRO%20-%20%20PYTHON%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def analisis_teks():\n",
+        "\n",
+        "    teks = input(\"Masukkan teks: \")\n",
+        "\n",
+        "    if not teks.strip():\n",
+        "        jumlah_kata = 0\n",
+        "        jumlah_kalimat = 0\n",
+        "    else:\n",
+        "        jumlah_kata = len(teks.split())\n",
+        "\n",
+        "        jumlah_kalimat = len(teks.split(\".\")) - 1\n",
+        "\n",
+        "    print(f\"\\nTeks tersebut memuat {jumlah_kalimat} kalimat dan {jumlah_kata} kata.\")\n",
+        "\n",
+        "if __name__ == \"__main__\":\n",
+        "    analisis_teks()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EaK1houFDT4b",
+        "outputId": "75eaee9d-e797-44c6-991d-274da6ad4088"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan teks: Media sosial atau disebut juga dengan jejaring sosial, seperti Facebook, Twitter, Instagram, dan masih banyak lagi ternyata tidak hanya digunakan sebagai tempat berkumpul atau berbagi di dunia maya. Namun, media sosial kini juga bisa dimanfaatkan sebagai media untuk mengembangkan sebuah bisnis. Saat ini telah banyak para pengusaha yang beralih ke media sosial dalam memasarkan produk mereka baik barang ataupun jasa. Beralihnya para pelaku bisnis ke media ini dikarenakan jejaring sosial memiliki manfaat yang sangat banyak bagi usaha bisnis. Berikut ini adalah alasan mengapa jejaring sosial bisa menjadi alat promosi yang paling efektif.\n",
+            "\n",
+            "Teks tersebut memuat 5 kalimat dan 92 kata.\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
