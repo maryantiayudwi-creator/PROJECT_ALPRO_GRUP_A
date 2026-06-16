@@ -1,27 +1,29 @@
 START
 
-    A ← (2,1,3)
-    B ← (1,-4,6)
-    C ← (-2,3,-2)
+INPUT p_hat
+INPUT n
+INPUT alpha
 
-    INPUT x1
-    INPUT x2
-    INPUT x3
+IF p_hat < 0 OR p_hat > 1 THEN
+    OUTPUT "Error: proporsi harus antara 0 dan 1"
+ELSE
 
-    dA ← √((x1-2)² + (x2-1)² + (x3-3)²)
-
-    dB ← √((x1-1)² + (x2+4)² + (x3-6)²)
-
-    dC ← √((x1+2)² + (x2-3)² + (x3+2)²)
-
-    IF dA < dB AND dA < dC THEN
-        cluster ← "A"
-    ELSE IF dB < dA AND dB < dC THEN
-        cluster ← "B"
+    IF alpha = 10% THEN
+        z ← 1.645
+    ELSE IF alpha = 5% THEN
+        z ← 1.96
     ELSE
-        cluster ← "C"
-    ENDIF
+        OUTPUT "Alpha tidak valid"
+        STOP
+    END IF
 
-    PRINT "Titik U termasuk Cluster", cluster
+    margin_error ← z * sqrt((p_hat*(1-p_hat))/n)
+
+    batas_bawah ← p_hat - margin_error
+    batas_atas ← p_hat + margin_error
+
+    OUTPUT batas_bawah
+    OUTPUT batas_atas
+END IF
 
 END
