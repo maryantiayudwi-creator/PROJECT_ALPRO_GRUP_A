@@ -1,27 +1,26 @@
 START
 
-    A ← (2,1,3)
-    B ← (1,-4,6)
-    C ← (-2,3,-2)
+Tetapkan titik A = (2,1,3)
+Tetapkan titik B = (1,-4,6)
+Tetapkan titik C = (-2,3,-2)
 
-    INPUT x1
-    INPUT x2
-    INPUT x3
+INPUT x1, x2, x3
 
-    dA ← √((x1-2)² + (x2-1)² + (x3-3)²)
+Hitung jarak_A
+= sqrt((x1-2)^2 + (x2-1)^2 + (x3-3)^2)
 
-    dB ← √((x1-1)² + (x2+4)² + (x3-6)²)
+Hitung jarak_B
+= sqrt((x1-1)^2 + (x2+4)^2 + (x3-6)^2)
 
-    dC ← √((x1+2)² + (x2-3)² + (x3+2)²)
+Hitung jarak_C
+= sqrt((x1+2)^2 + (x2-3)^2 + (x3+2)^2)
 
-    IF dA < dB AND dA < dC THEN
-        cluster ← "A"
-    ELSE IF dB < dA AND dB < dC THEN
-        cluster ← "B"
-    ELSE
-        cluster ← "C"
-    ENDIF
-
-    PRINT "Titik U termasuk Cluster", cluster
+IF jarak_A < jarak_B AND jarak_A < jarak_C THEN
+    OUTPUT "Cluster A"
+ELSE IF jarak_B < jarak_A AND jarak_B < jarak_C THEN
+    OUTPUT "Cluster B"
+ELSE
+    OUTPUT "Cluster C"
+END IF
 
 END
