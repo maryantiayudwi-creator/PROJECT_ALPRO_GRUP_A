@@ -21,6 +21,6 @@ akar_kuadrat <- function(a, b, c) {
 }
 
 # contoh
-akar_kuadrat(1, -3, 2)
-akar_kuadrat(1, 2, 1)
-akar_kuadrat(1, 2, 5)
+akar_kuadrat(2,8,3)
+akar_kuadrat(2,-8,8)
+akar_kuadrat(3,4,2)
