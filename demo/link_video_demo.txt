@@ -1,0 +1,52 @@
+link video: https://drive.google.com/file/d/1ooFUqxmKnKNgyRMjA3LdukeZ-2bqIwi8/view?usp=sharing
+
+
+(Transcribed by UniScribe (https://www.uniscribe.co). Upgrade to remove this message.)
+
+Oke, disini sekarang ada sintaks dari program 1. Oke, langsung saja kita running. Oke, disini sudah keluar fiturnya. Jadi disini kita langsung saja masukkan teks yang ingin kita analisis. Oke, ini sudah keluar dari analisis teksnya. Ini muncul bahwa ada 4 kalimat dan juga 62 kata.
+
+selanjutnya ini ada teks dari kedua dan menghasilkan 4 kalimat dan juga 65 kata dan yang terakhir yaitu teks ketiga dimana disini berhasil menganalisis yaitu hasil analisisnya 4 kalimat dan juga 67 kata oke selanjutnya ini ada program kedua yaitu string kalimat dimana disini ada kalimat 1, kalimat 2, sampai kalimat 4 oke langsung aja kita running ya oke setelah di running ini yang kita dapat hasilnya yaitu kalimat 1 yaitu saya tak akan menyerah lalu 2 ya berkat aku menyayangimu dan sampai kalimat keempat yaitu syarat keputusan itu bernomor 62 UN.3419.2023
+
+Oke selanjutnya ini ada program ketiga yaitu persamaan kuadrat ya ini ada sintaksnya ya lalu masuk ke training dan disini kita bisa mendapatkan hasilnya yaitu dengan masukkan koefisien 2, 8 dan juga 3 lalu akan menghasilkan diskriminan 40 dan untuk akarnya sendiri itu menghasilkan 2 akar real dimana x1 nya adalah min 0,4 dan untuk x2 nya itu min 3,8 selanjutnya ada ini kas kedua yaitu akar real dimana
+
+untuk ini sendiri kita bisa masukkan untuk koefisien A nya itu 2 lalu B nya itu min 8 dan C nya itu adalah 8 dimana nanti akan menghasilkan diskriminan sama dengan 0 dimana sesuai dengan kasusnya lalu akan menghasilkan akar kembar yang itu 2 lalu disini ada akar imajiner selanjutnya ada akar imajiner yaitu kasus ke
+
+ketiga, lalu disini, dimana diskiminanya kurang dari 0 ya langsung saja kita running dimana untuk kita masukkan saja koefisiennya itu A3, Bnya itu 4 dan juga Cnya itu adalah 2 dimana akan menghasilkan diskiminan sama dengan min 8 sesuai dengan kasusnya, itu kurang dari 0 dan juga memiliki akar, yaitu akar-akar imajiner jadi untuk program 4, yang pertama itu ada kasus 1 kita running dulu programnya lalu disini kita disuruh masukkan NFS ASNnya itu dengan input 2004
+
+121820230120001 lalu kita enter dan hasilnya disini tanggal lahir ASN itu terjemahannya itu 18 Desember 2004 lalu untuk kasus 2 sama kita ranikan dulu programnya lalu kita masukkan kode inputnya yaitu menggunakan hasil bulan yang tidak valid yaitu 2006 15 07 2010
+
+121002 lalu kita enter dan hasilnya itu tanggal lahir ASN 7 bulan tidak valid 2006 karena disini 2 digitnya itu 15 dan disini bulannya sampai 12 dan kalau misalkan di luar itu berarti bulannya tidak valid lalu untuk kasus ketiga sama kita running dulu programnya lalu kita masukkan kode ASNnya yaitu
+
+2006 123 lalu kita enter dan hasilnya itu nip tidak valid karena disini memiliki jumlah karakternya kurang dari delapan maka dari itu hasil outputnya nip tidak valid lalu untuk program kelima yang kasus satu kita running dulu programnya lalu kita masukkan nilai x1 nya 2 nilai x2 nya 2 dan nilai x3 nya 2 lalu kita enter dan hasilnya yaitu titik u
+
+termasuk ke cluster A lalu untuk kasus 2 kita running juga programnya kita masukkan nilai x1 nya itu 1 x2 nya min 3
+
+lalu x3 nya 5 kita enter dan dapat hasilnya juga bahwa titik u dengan nilai yang tadi dimasukkan itu termasuk ke cluster B lalu untuk kasus ketiga kita running dulu programnya lalu kita masukkan dulu juga nilainya yang berbeda x1 nya itu -3 x2 nya 2 dan x3 nya -1
+
+lalu kita enter dan ternyata titik U dengan nilai input yang telah dimasukkan itu termasuk ke dalam klaster C lalu untuk selanjutnya itu program ke 6 interval proporsi kita running dulu untuk kasus 1 sama lalu kita minta input datanya nah disini itu ada ketentuannya untuk proporsinya itu harus antara 0 sampai 1 nah contohnya itu kita masukkan 0,4
+
+lalu untuk alpha nya disini ada 0,10 dan 0,05 kita pilih yang 0,05 lalu kita enter dan juga ukuran sampelnya misalkan 100 enter lalu hasil outputnya itu interval konvidensinya itu 0,3040 dan 0,4960 berarti si intervalnya itu diantara segini terus untuk kasus 2 juga sama kita running dulu programnya lalu kita masukkan proporsi sampelnya itu 0,65
+
+lalu alphanya kan tadi program sebelumnya udah 0,05 kita pakai yang satunya lagi 0,10 lalu kurang sampelnya 250 dan dapat hasilnya yaitu interval konfidensinya 0,6004 sampai 0,6996 berarti hasilnya itu ada di antara ini ini untuk batas bawah dan ini untuk batas atas lalu untuk kasus 3 yang terakhir kita menggunakan proporsi 1,5 lalu
+
+alphanya 0,05 dan juga sampelnya 100. Kita enter, itu dapat hasilnya ada di tulisannya error karena proporsinya itu lebih dari 1. Di ARP, program pertama itu menghitung jumlah kata dan jumlah kalimat dari sebuah teks. Di sini sudah dimasukkan ada 3 input, lalu kita akan tahanin.
+
+Ketika dirunning akan menghasilkan output yang pertama, teks pertama itu jumlah kalimat 4, jumlah kata 62, teks kedua itu jumlah kalimat 4, jumlah kata 65, dan yang terakhir itu jumlah kalimat 4 dan jumlah kata 67. Lanjut ke program kedua. Program kedua itu menampilkan objek string K1 sampai K4. Ketika dirun akan menghasilkan output sesuai string yang di input atau K1 sampai K4. Dan yang terakhir ada program menghitung akar-akar suatu persamaan kuadrat yang dapat ditentukan dari rumus ini.
+
+disini ada 3 input, yang pertama itu 2,8,3 yang kedua ada 2,min8,8 dan yang terakhir ada 3,4,2 ketika dirun akan menghasilkan output yang pertama akar real berbeda yang X1 = -0,419 X2 = -3,581 untuk yang inputan kedua itu menghasilkan output akar real kembar yaitu X = 2 untuk yang terakhir itu input menghasilkan output persamaan memiliki akar imaginer
+
+untuk program yang keempat yaitu ekstraksi tanggal lahir dari NIP disini kita memasukkan input untuk NIP nya disini terdapat 3 input kita block untuk programnya setelah itu kita running disini terdapat 3 output dengan input yang dimasukkan maka disini untuk tanggal lahirnya tertera itu 18 Desember 2004 sesuai dengan yang tertera pada NIP nya untuk output yang kedua dikarenakan disitu untuk bagian bulannya tidak sesuai dengan yang ada pada kodenya maka disitu tertera bulan tidak valid dikarenakan tidak ada bulan 15
+
+setelah itu untuk output yang ketiga dikarenakan panjang karakternya tidak memenuhi syarat itu minimal 8 karakter maka disitu tertera error NIP tidak valid panjang NIP minimal 8K berikutnya untuk program yang kelima yaitu penentuan klaster 3 dimensi disini terdapat 3 klaster yaitu klaster A, klaster B, dan klaster C untuk inputnya sendiri kita masukkan koordinat titik O disini kita memasukkan 3 input selanjutnya kita block setelah itu kita running disini untuk outputnya dari input yang pertama
+
+tertera untuk jarak dari titik O input yang pertama untuk ke A ke B dan ke C setelah itu kita lihat untuk yang paling dekat yaitu ke titik A karena paling dekat ke titik A maka titik O tergolong dalam klaster A begitu juga yang input yang kedua disitu tertera untuk jarak dari titik O ke klaster A, klaster B, dan klaster C selanjutnya karena lebih dekat ke klaster B maka
+
+disitu tertera titik U tergolong dalam klaster B begitu juga yang C karena titik U paling dekat ke klaster C maka titik U tergolong ke dalam klaster jadi program yang keenam ini merupakan program untuk menghitung interval konfidensi proporsi disini kita sudah memasukkan apa saja yang diperlukan rumus-rumus apa saja yang diperlukan untuk menghitung interval konfidensi proporsi lalu disini kita juga memiliki tiga input lalu pertama kita block dulu untuk programnya setelah itu kita running untuk output yang dihasilkan dari program
+
+input yang pertama yaitu dari P topi nya itu 0,4, alfa nya 0,05 dan N nya 100 maka kita dapat interval konfidensi yaitu P ini berada di antara 0,304 sampai 0,496 dari input yang kedua dari P topi 0,65, alfa 0,10, N 250 kita dapat interval konfidensinya yaitu P berada di antara
+
+0,6004 sampai 0,6996 lalu di input yang ketiga disini kita menggunakan try catch karena disini kita memasukkan inputnya itu kita perkirakan akan error maka disini kita menggunakan try catch agar programnya itu bisa menangkap errornya
+
+tanpa menghentikan programnya karena jika kita tidak menggunakan try catch maka program akan langsung berhenti dan pesan untuk errornya itu tidak akan ditampilkan. Jadi di sini kita menggunakan try catch sehingga ketika error maka program akan menampilkan kesalahan nilai proporsi sampel atau petopi harus berada di antara 0 dan 1.
+
+(Transcribed by UniScribe (https://www.uniscribe.co). Upgrade to remove this message.)
